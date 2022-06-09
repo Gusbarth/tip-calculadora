@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIP-CALCULATOR-APP</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+
+        <div class="titulo">
+            <h1 class="titulo-texto">
+                SPLI <br>
+                TTER
+            </h1> 
+        </div>
+
+        <div class="container">
+
+            <div class="container-dados">
+                
+                <div class="escolha-dados">
+
+                    <div class="bill-container">
+                        <label>Bill</label>
+                        <input class="escolha-input" type="text" placeholder="0">
+                    </div>
+
+                    <div class="botoes-container">
+                        <label>Select Tip %</label>
+                        <div class="grid-container">
+                            <div>
+                                <button class="btn-select-tip">05%</button>
+                            </div>
+                            <div>
+                                <button class="btn-select-tip">10%</button>
+                            </div>
+                            <div>
+                                <button class="btn-select-tip">15%</button>
+                            </div>
+                            <div>
+                                <button class="btn-select-tip">25%</button>
+                            </div>
+                            <div>
+                                <button class="btn-select-tip">50%</button>
+                            </div>
+                            <div>
+                                <input type="text" class="custom-input" placeholder="Custom">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="numberpeople-container">
+                        <label>Number of People</label>
+                        <input class="escolha-input" type="text" placeholder="0">
+                    </div>
+
+                </div>
+
+                <div class="exibe-dados">
+                    <div class="exibe-dados-textos">
+                        <div class="amount-textos">
+                            <div class="textos-dados">
+                                <p class="tip-txt">Tip Amount</p> 
+                                <p class="person-txt">/ person</p>
+                            </div>
+                            <div class="numero-dados">
+                                <p class="preco-numero">$0.00</p>
+                            </div>
+                        </div>
+                        <div class="total-textos">
+                            <div class="textos-dados">
+                                <p class="total-txt">Total</p>
+                                <p class="person-txt">/ person</p>
+                            </div>
+                            <div class="numero-dados">
+                                <p class="preco-numero">$0.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="exibe-dados-btn">
+                        <button class="btn-reset">RESET</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+</body>
+</html>
